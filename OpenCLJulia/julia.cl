@@ -38,7 +38,7 @@ static float magnitude2(cuComplex z) {
 }
 
 static int isJulia(int x, int y, int dimension) {
-    const float scale = 0.25;
+    const float scale = 1.50;
     float jx = scale * (float)(dimension / 2 - x) / (dimension / 2);
     float jy = scale * (float)(dimension / 2 - y) / (dimension / 2);
     
@@ -60,9 +60,8 @@ __kernel void julia(__global unsigned char *ptr)
     int x = get_global_id(0);
     int y = get_global_id(1);
     
-    const int dimension = get_num_groups(0) * get_local_size(0);
-    
-    int index = y * dimension + x * get_local_size(0);
+    const int dimension = 1000;
+    int index = (y + x * dimension) * 4;
     
     ptr[index] =  0;
     ptr[index + 1] =  isJulia(x, y, dimension) * 255;

@@ -84,8 +84,8 @@ int main(int argc, const char * argv[]) {
     
     // Execute the OpenCL kernel
     size_t local_work_size[2] = { 4, 1 };
-    size_t global_work_size[2] = { DIM * 4, DIM };
-    error = clEnqueueNDRangeKernel(queue, kernel, 2, NULL, global_work_size, local_work_size, 0, NULL, NULL);
+    size_t global_work_size[2] = { DIM, DIM };
+    error = clEnqueueNDRangeKernel(queue, kernel, 2, NULL, global_work_size, NULL, 0, NULL, NULL);
     
     // Wait for the command queue to be finished
     error = clFinish(queue);
