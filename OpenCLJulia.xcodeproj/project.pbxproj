@@ -29,7 +29,7 @@
 		BF2AE7A61B15BDFB000EC752 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		BF812EFB1B15AD0300897767 /* OpenCLJulia */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenCLJulia; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF7C2601B15AD4600018C79 /* cl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cl.hpp; sourceTree = "<group>"; };
-		BFF7C2611B15AD4600018C79 /* grayscale.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; path = grayscale.cl; sourceTree = "<group>"; };
+		BFF7C2611B15AD4600018C79 /* julia.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; path = julia.cl; sourceTree = "<group>"; };
 		BFF7C2641B15AD4600018C79 /* clean.bat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = clean.bat; sourceTree = "<group>"; };
 		BFF7C2651B15AD4600018C79 /* clean.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = clean.sh; sourceTree = "<group>"; };
 		BFF7C2671B15AD4600018C79 /* delete.me */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = delete.me; sourceTree = "<group>"; };
@@ -1360,7 +1360,7 @@
 				BFF7CA111B15B74100018C79 /* common */,
 				BFF7CA0C1B15ADA200018C79 /* main.cpp */,
 				BFF7C2601B15AD4600018C79 /* cl.hpp */,
-				BFF7C2611B15AD4600018C79 /* grayscale.cl */,
+				BFF7C2611B15AD4600018C79 /* julia.cl */,
 				BFF7C2621B15AD4600018C79 /* lib */,
 			);
 			path = OpenCLJulia;
