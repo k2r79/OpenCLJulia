@@ -1,0 +1,206 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		BFA64E031B0384370060C583 /* clean.bat */ = {isa = PBXFileReference; lastKnownFileType = text; path = clean.bat; sourceTree = "<group>"; };
+		BFA64E041B0384370060C583 /* clean.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = clean.sh; sourceTree = "<group>"; };
+		BFA64E051B0384370060C583 /* Dist */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Dist; sourceTree = "<group>"; };
+		BFA64E061B0384370060C583 /* Examples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Examples; sourceTree = "<group>"; };
+		BFA64E071B0384370060C583 /* fipMakefile.srcs */ = {isa = PBXFileReference; lastKnownFileType = text; path = fipMakefile.srcs; sourceTree = "<group>"; };
+		BFA64E081B0384370060C583 /* FreeImage.2005.sln */ = {isa = PBXFileReference; lastKnownFileType = text; path = FreeImage.2005.sln; sourceTree = "<group>"; };
+		BFA64E091B0384370060C583 /* FreeImage.2005.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = FreeImage.2005.vcproj; sourceTree = "<group>"; };
+		BFA64E0A1B0384370060C583 /* FreeImage.2008.sln */ = {isa = PBXFileReference; lastKnownFileType = text; path = FreeImage.2008.sln; sourceTree = "<group>"; };
+		BFA64E0B1B0384370060C583 /* FreeImage.2008.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = FreeImage.2008.vcproj; sourceTree = "<group>"; };
+		BFA64E0C1B0384370060C583 /* FreeImage.2013.sln */ = {isa = PBXFileReference; lastKnownFileType = text; path = FreeImage.2013.sln; sourceTree = "<group>"; };
+		BFA64E0D1B0384370060C583 /* FreeImage.2013.vcxproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = FreeImage.2013.vcxproj; sourceTree = "<group>"; };
+		BFA64E0E1B0384370060C583 /* FreeImage.2013.vcxproj.filters */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = FreeImage.2013.vcxproj.filters; sourceTree = "<group>"; };
+		BFA64E0F1B0384370060C583 /* FreeImage.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = FreeImage.rc; sourceTree = "<group>"; };
+		BFA64E101B0384370060C583 /* genfipsrclist.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = genfipsrclist.sh; sourceTree = "<group>"; };
+		BFA64E111B0384370060C583 /* gensrclist.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = gensrclist.sh; sourceTree = "<group>"; };
+		BFA64E121B0384370060C583 /* license-fi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "license-fi.txt"; sourceTree = "<group>"; };
+		BFA64E131B0384370060C583 /* license-gplv2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "license-gplv2.txt"; sourceTree = "<group>"; };
+		BFA64E141B0384370060C583 /* license-gplv3.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "license-gplv3.txt"; sourceTree = "<group>"; };
+		BFA64E151B0384370060C583 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		BFA64E161B0384370060C583 /* Makefile.cygwin */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.cygwin; sourceTree = "<group>"; };
+		BFA64E171B0384370060C583 /* Makefile.fip */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.fip; sourceTree = "<group>"; };
+		BFA64E181B0384370060C583 /* Makefile.gnu */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.gnu; sourceTree = "<group>"; };
+		BFA64E191B0384370060C583 /* Makefile.iphone */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.iphone; sourceTree = "<group>"; };
+		BFA64E1A1B0384370060C583 /* Makefile.mingw */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.mingw; sourceTree = "<group>"; };
+		BFA64E1B1B0384370060C583 /* Makefile.osx */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.osx; sourceTree = "<group>"; };
+		BFA64E1C1B0384370060C583 /* Makefile.solaris */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.solaris; sourceTree = "<group>"; };
+		BFA64E1D1B0384370060C583 /* Makefile.srcs */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.srcs; sourceTree = "<group>"; };
+		BFA64E1E1B0384370060C583 /* README.iphone */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.iphone; sourceTree = "<group>"; };
+		BFA64E1F1B0384370060C583 /* README.linux */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.linux; sourceTree = "<group>"; };
+		BFA64E201B0384370060C583 /* README.minGW */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.minGW; sourceTree = "<group>"; };
+		BFA64E211B0384370060C583 /* README.osx */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.osx; sourceTree = "<group>"; };
+		BFA64E221B0384370060C583 /* README.solaris */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.solaris; sourceTree = "<group>"; };
+		BFA64E231B0384370060C583 /* Source */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Source; sourceTree = "<group>"; };
+		BFA64E241B0384370060C583 /* TestAPI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TestAPI; sourceTree = "<group>"; };
+		BFA64E251B0384370060C583 /* Whatsnew.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Whatsnew.txt; sourceTree = "<group>"; };
+		BFA64E261B0384370060C583 /* Wrapper */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Wrapper; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		BFA64DFD1B0384370060C583 = {
+			isa = PBXGroup;
+			children = (
+				BFA64E031B0384370060C583 /* clean.bat */,
+				BFA64E041B0384370060C583 /* clean.sh */,
+				BFA64E051B0384370060C583 /* Dist */,
+				BFA64E061B0384370060C583 /* Examples */,
+				BFA64E071B0384370060C583 /* fipMakefile.srcs */,
+				BFA64E081B0384370060C583 /* FreeImage.2005.sln */,
+				BFA64E091B0384370060C583 /* FreeImage.2005.vcproj */,
+				BFA64E0A1B0384370060C583 /* FreeImage.2008.sln */,
+				BFA64E0B1B0384370060C583 /* FreeImage.2008.vcproj */,
+				BFA64E0C1B0384370060C583 /* FreeImage.2013.sln */,
+				BFA64E0D1B0384370060C583 /* FreeImage.2013.vcxproj */,
+				BFA64E0E1B0384370060C583 /* FreeImage.2013.vcxproj.filters */,
+				BFA64E0F1B0384370060C583 /* FreeImage.rc */,
+				BFA64E101B0384370060C583 /* genfipsrclist.sh */,
+				BFA64E111B0384370060C583 /* gensrclist.sh */,
+				BFA64E121B0384370060C583 /* license-fi.txt */,
+				BFA64E131B0384370060C583 /* license-gplv2.txt */,
+				BFA64E141B0384370060C583 /* license-gplv3.txt */,
+				BFA64E151B0384370060C583 /* Makefile */,
+				BFA64E161B0384370060C583 /* Makefile.cygwin */,
+				BFA64E171B0384370060C583 /* Makefile.fip */,
+				BFA64E181B0384370060C583 /* Makefile.gnu */,
+				BFA64E191B0384370060C583 /* Makefile.iphone */,
+				BFA64E1A1B0384370060C583 /* Makefile.mingw */,
+				BFA64E1B1B0384370060C583 /* Makefile.osx */,
+				BFA64E1C1B0384370060C583 /* Makefile.solaris */,
+				BFA64E1D1B0384370060C583 /* Makefile.srcs */,
+				BFA64E1E1B0384370060C583 /* README.iphone */,
+				BFA64E1F1B0384370060C583 /* README.linux */,
+				BFA64E201B0384370060C583 /* README.minGW */,
+				BFA64E211B0384370060C583 /* README.osx */,
+				BFA64E221B0384370060C583 /* README.solaris */,
+				BFA64E231B0384370060C583 /* Source */,
+				BFA64E241B0384370060C583 /* TestAPI */,
+				BFA64E251B0384370060C583 /* Whatsnew.txt */,
+				BFA64E261B0384370060C583 /* Wrapper */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		BFA64E021B0384370060C583 /* FreeImage */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = BFA64E271B0384370060C583 /* Build configuration list for PBXLegacyTarget "FreeImage" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/Vincent/Downloads/FreeImage;
+			dependencies = (
+			);
+			name = FreeImage;
+			passBuildSettingsInEnvironment = 1;
+			productName = FreeImage;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		BFA64DFE1B0384370060C583 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = BFA64E011B0384370060C583 /* Build configuration list for PBXProject "FreeImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BFA64DFD1B0384370060C583;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFA64E021B0384370060C583 /* FreeImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		BFA64DFF1B0384370060C583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		BFA64E001B0384370060C583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		BFA64E281B0384370060C583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = FreeImage;
+			};
+			name = Debug;
+		};
+		BFA64E291B0384370060C583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = FreeImage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFA64E011B0384370060C583 /* Build configuration list for PBXProject "FreeImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA64DFF1B0384370060C583 /* Debug */,
+				BFA64E001B0384370060C583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFA64E271B0384370060C583 /* Build configuration list for PBXLegacyTarget "FreeImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA64E281B0384370060C583 /* Debug */,
+				BFA64E291B0384370060C583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFA64DFE1B0384370060C583 /* Project object */;
+}
